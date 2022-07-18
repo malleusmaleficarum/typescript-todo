@@ -1,0 +1,39 @@
+.todos__single {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-image: url("https://www.mariusbeck.com/wp-content/uploads/2015/03/skulls-dark-black-pattern.jpg");
+  transition: 0.2s;
+}
+
+.todos__single:hover {
+  box-shadow: 0 0 3px black;
+  transform: scale(1.01);
+}
+
+.todos__input {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.todos__text {
+  flex: 1;
+  font-size: 20px;
+}
+
+.todos__icon {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}

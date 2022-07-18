@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.todos {
+  width: 48%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: rgb(50, 195, 205);
+}
+
+.todos__heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.remove {
+  background-color: rgb(235, 103, 80);
+}
+
+.dragactive {
+  background-color: rgb(0, 221, 236);
+}
+
+.dragcomplete {
+  background-color: rgb(255, 38, 0);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .todos {
+    width: 95%;
+  }
+}
